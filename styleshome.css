@@ -5,7 +5,6 @@
 *{
     margin:0;
     font-family: Marykate;
-    background: antiquewhite;
 }
 
 .header{
@@ -132,14 +131,19 @@ svg{
     height:630px;
     position: relative;
 }
-div>.boxheading{
+.boxheading{
     padding: 0%;
     margin: 0%;
+    position: relative;
+    z-index: 9999;
 }
 .carousel{
     transform: scale(1.8);
     position: relative;
     right: 40%;
+    top:-5%;
+    width: 100%;
+    background: antiquewhite;
 }
 .process{
     height:600px;

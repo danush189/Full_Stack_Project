@@ -19,9 +19,9 @@ function Signup() {
           <source src="imgvd/dog1.mp4" type="video/mp4" />
         </video>
         <div className="header">
-          <img src="logos/logo_main.png" alt="loading" id="logo" />
+          <img src="../logos/logo_main.png" alt="loading" id="logo" />
           <a href="index.html">
-            <img src="logos/home.png" alt="loading" id="homebutton" />
+            <img src="../logos/home.png" alt="loading" id="homebutton" />
           </a>
         </div>
         <div className="body">

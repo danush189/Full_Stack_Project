@@ -15,13 +15,13 @@ function Indexpage(){
           <link rel="stylesheet" href="styleshome.css" />
           <title>AdoptABuddy</title>
           <div className="header">
-            <img src="images/Logoprop.png" alt="loding" id="logo" />
+            <img src="../images/Logoprop.png" alt="loding" id="logo" />
           </div>
           <div className="nav">
             <ul id="nav1">
-              <li><a href="adopt.html">Adopt</a></li>
-              <li><a href="donatenow.html">Donate</a></li>
-              <li><a href="Shelters.html">Shelters</a></li>
+              <li><Link to="/adopt">Adopt</Link></li>
+              <li><Link to="/donate">Donate</Link></li>
+              <li><Link to="/shelters">Shelters</Link></li>
             </ul>
             <ul id="navend">
               <li><Link to="/Signup">Sign Up</Link></li>

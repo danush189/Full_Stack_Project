@@ -1,13 +1,12 @@
 import './Styles.css'
 import React from "react";
-
 function Shelters() {
       return (
         <div>
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title>Shelters</title>
-          <link rel="stylesheet" href="styles.css" />
+          <link rel="stylesheet" href="Styles.css" />
           <div className="header">
             <img src="logos/logo_main.png" alt="loading" id="logo" />
             <a href="index.html">

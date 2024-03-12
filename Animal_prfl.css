@@ -19,7 +19,16 @@ main{
   max-width: 1080px;
   margin: 5% auto;
 }
-
+h3{
+    flex: 0 1 200px;
+    text-align: left;
+    margin: 0;
+    color: #252525;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
 .card{
   box-shadow: 0 6px 6px rgba(#000, 0.3);
   transition: 200ms;
@@ -97,7 +106,7 @@ main{
         &.price{
           font-family: "Fjalla One", sans-serif;
           color: #252525;
-          font-size: 26px;
+          font-size: 22px;
         }
       }
     }

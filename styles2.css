@@ -125,10 +125,14 @@
 .signup a:hover{
     text-decoration: underline;
 }
+video #myVideo{
+  top:100px;
+}
 #myVideo {
     position: fixed;
+
     right: 0;
-    bottom: 0;
+    top:100px;
     min-width: 100%;
     min-height: 100%;
   }

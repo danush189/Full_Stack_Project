@@ -27,11 +27,11 @@
 body {
   background-image: linear-gradient(
     to right bottom,
-    #b91eda,
-    #a02ae0,
-    #8234e5,
-    #5d3be8,
-    #1241eb
+    #ca80db,
+    #b76dde,
+    #ab51f0,
+    #9181d1,
+    #d1d7eb
   );
   height: 100%;
   margin: 0;
@@ -56,7 +56,7 @@ h3{
     color: #252525;
     font-family: sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 30px;
     text-transform: uppercase;
   }
 .card{
@@ -74,15 +74,14 @@ h3{
       text-align: right;
       margin: 0;
       color: #252525;
-      font-family: sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-weight: 600;
       font-size: 20px;
-      text-transform: uppercase;
     }
     
     .icon{
       flex: 1 0 10px;
-      background: #115dd8;
+      background: #58129d;
       color: #fff;
       padding: 10px 10px;
       transition: 200ms;
@@ -142,12 +141,13 @@ h3{
     }
     
     .image{
-      padding-top: 15px;
+      padding-top: 30px;
       width: 100%;
+
       
       img{
         display: block;
-        max-width: 100%;
+        width: 400px;
         height: auto;
       }
     }
@@ -167,24 +167,10 @@ h3{
     
     span.stock{
       font-family: "Montserrat", sans-serif;
-      font-weight: 600;
-      color: #a1cc16;
+      font-weight: 800;
+      font-size: 30px;
+      color: #27104e;
     }
-    
-    .reviews{
-      .stars{
-        display: inline-block;
-        list-style: none;
-        padding: 0;
-        
-        > li{
-          display: inline-block;
-          
-          .fa{
-            color: #f7c01b;
-          }
-        }
-      }
       
       > span{
         font-family: "Open Sans", sans-serif;
@@ -211,7 +197,7 @@ h3{
       width: calc(100% - 40px);
       height: 3px;
       background: #115dd8;
-      background: linear-gradient(to right, #115dd8 0%,#115dd8 20%,#ddd 20%,#ddd 100%);
+      background: linear-gradient(to right, #7111d8 20%,#dcb2e1 40%,#fbf9f9 60%,#fffefe 100%);
     }
     
     .recommend{
@@ -239,11 +225,11 @@ h3{
     .action{
       button{
         cursor: pointer;
-        border: 1px solid #115dd8;
+        border: 1px solid #4f1688;
         padding: 14px 30px;
         border-radius: 200px;
         color: #fff;
-        background: #115dd8;
+        background: #4f1688;
         font-family: "Open Sans", sans-serif;
         font-size: 16px;
         transition: 200ms;

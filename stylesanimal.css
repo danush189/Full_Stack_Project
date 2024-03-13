@@ -142,3 +142,20 @@
     -webkit-line-clamp: 3;
     overflow: hidden;
   }    
+  .back-button {
+    display: inline-block;
+    padding-right: 30px;
+    background-color: none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 25px;
+    font-family: "Marykate";
+  }
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+  }

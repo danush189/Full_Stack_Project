@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat:300,400,700,800|Open+Sans:300');
+@font-face {
+  font-family: Marykate;
+  src: url("FontsFree-Net-Marykate-Regular.ttf");
+}
 *{
   margin:0;
   padding:0;
@@ -45,6 +49,23 @@ body {
   float:right;
   margin-right: 10px;
 }
+.back-button {
+  display: inline-block;
+  padding-right: 30px;
+  background-color: none;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 40px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 25px;
+  font-family: "Marykate";
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
 main{
   max-width: 1080px;
   margin: 5% auto;
@@ -54,9 +75,9 @@ h3{
     text-align: left;
     margin: 0;
     color: #252525;
-    font-family: sans-serif;
-    font-weight: 600;
-    font-size: 30px;
+    font-family: "Marykate";
+    font-weight: 300;
+    font-size: 40px;
     text-transform: uppercase;
   }
 .card{
@@ -74,9 +95,9 @@ h3{
       text-align: right;
       margin: 0;
       color: #252525;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 600;
-      font-size: 20px;
+      font-family: "Marykate";
+      font-weight: 400;
+      font-size: 40px;
     }
     
     .icon{
@@ -113,7 +134,7 @@ h3{
         margin: 0;
         padding: 0;
         font-weight: 800;
-        font-family: "Montserrat", sans-serif;
+        font-family: "Marykate";
         font-size: 64px;
         line-height: 50px;
         color: #181e28;
@@ -133,9 +154,10 @@ h3{
         }
         
         &.price{
-          font-family: "Fjalla One", sans-serif;
+          font-family: "Montserrat", sans-serif;
           color: #252525;
-          font-size: 22px;
+          font-size: 25px;
+          font-weight: 400;
         }
       }
     }
@@ -166,7 +188,7 @@ h3{
     }
     
     span.stock{
-      font-family: "Montserrat", sans-serif;
+      font-family: "Marykate";
       font-weight: 800;
       font-size: 30px;
       color: #27104e;

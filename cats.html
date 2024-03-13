@@ -7,15 +7,27 @@
     <link rel="stylesheet" href="stylesanimal.css">
 </head>
 <body>
-    <div class="header">
-        <img src="logos/logo_main.png" alt="loading" id="logo">
-        <a href="index.html">
-        <img src="logos/home.png" alt="loading" id="homebutton">
-        </a>
-        </div>
+  <div class="header">
+    <img src="logos/logo_main.png" alt="loading" id="logo">
+
+    <div class="button-container">
+    <a href="#" class="back-button" onclick="goBack()">
+      &#8592; BACK
+    </a>
+    <script>
+    function goBack() {
+      window.history.back();
+    }
+    </script>
+
+    <a href="index.html">
+    <img src="logos/home.png" alt="loading" id="homebutton">
+    </a>
+  </div>
+</div>
     <ul class="cards">
         <li>
-            <a href="abcd.html" class="card">
+            <a href="Animal Profiles/Cats/Maya.html" class="card">
               <img src="Images/cats1.jpg" class="card__image" alt="" />
               <div class="card__overlay">
                 <div class="card__header">
@@ -31,7 +43,7 @@
             </a>
           </li>
         <li>
-          <a href="" class="card">
+          <a href="Animal Profiles/Cats/Leo.html" class="card">
             <img src="Images/cats2.jpg" class="card__image" alt="" />
             <div class="card__overlay">        
               <div class="card__header">

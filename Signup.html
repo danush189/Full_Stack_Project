@@ -62,7 +62,6 @@
         } else {  
           alert ("Your account has been created successfully");  
           // Simulate an HTTP redirect (replace the current page)
-            window.location.replace("http://localhost:8080/index.html");
 
         }  
      }  
@@ -81,7 +80,7 @@
     </div>
     <div class="body">
         <div class="main-box" style="margin-top:100px;">
-            <form onsubmit ="return validateForm()" action="http://localhost:8080">
+            <form onsubmit ="return validateForm()" action="/index.html">
                 <h1 style="font-family: Marykate; font-weight:400">Be a part of our family by signing up</h1>
                 <div class="input-box">
                     <input type = "text" id = "fname" value = "" placeholder="Enter Full Name" required>   

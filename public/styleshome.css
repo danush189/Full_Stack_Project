@@ -127,10 +127,7 @@ svg{
 .carouselBox{
     background-color: antiquewhite;
     height:630px;
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-
+    position: relative;
 }
 .boxheading{
     padding: 0%;
@@ -140,15 +137,11 @@ svg{
 }
 .carousel{
     transform: scale(1.8);
+    position: relative;
     right: 40%;
     top:-5%;
-    margin-right: 0%;
-    margin-left: 0%;
+    width: 100%;
     background: antiquewhite;
-    border: none;
-    display: inline-block;
-    float: right;
-
 }
 .process{
     height:600px;

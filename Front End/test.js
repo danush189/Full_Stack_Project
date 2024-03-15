@@ -1,26 +1,20 @@
-// function onSignIn(googleUser) {
-//     var profile = googleUser.getBasicProfile();
-//     $("#name").text(profile.getName());
-//     $("#email").text(profile.getEmail());
-//     $("#image").attr('src',profile.getImageUrl());
-//     $(".data").css("display","block");
-//     $(".g-signin2").css("display","none");
-//   }
-function onSignIn(googleUser) {
-  var profile = googleUser.getBasicProfile();
-  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
-  console.log('Name: ' + profile.getName());
-  console.log('Image URL: ' + profile.getImageUrl());
-  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
-}
+document.addEventListener('DOMContentLoaded', function () {
+  const signInForm = document.getElementById('signin-form');
 
-  // function signOut() {
-  //   var auth2 = gapi.auth2.getAuthInstance();
-  //   auth2.signOut().then(function () {
-  //     alert("You have signed out successfully");
-  //     $(".g-signin2").css("display","block");
-  //     $(".data").css("display","none");
-  //   });
-  // }
+  signInForm.addEventListener('submit', async function (event) {
+    event.preventDefault();
 
-  
+    const formData = new FormData(signInForm);
+    const email = formData.get('email');
+    const password = formData.get('password');
+
+    try {
+      await Clerk.signIn(email, password);
+      console.log('Sign in successful');
+      // Redirect or perform other actions upon successful sign-in
+    } catch (error) {
+      console.error('Sign in failed', error);
+      // Handle sign-in failure (display error message, etc.)
+    }
+  });
+});
